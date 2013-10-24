@@ -15,6 +15,10 @@ using namespace std;
  */
 int main(int argc, char** argv) {
     printf("abcd");
+    int a = 0;
+    while (a < 5) {
+        ++a;
+    }
     printf("cdef");
     return 0;
 }
