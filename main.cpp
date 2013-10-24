@@ -15,10 +15,10 @@ using namespace std;
  */
 int main(int argc, char** argv) {
     int b = 0;
-    if (b > 1) {
-        printf("abcd");
+    if (b < 1) {
+        printf("abcd\n");
 
-        printf("cdef");
+        printf("cdef\n");
     }
 
     return 0;

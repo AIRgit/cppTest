@@ -1,1 +1,1 @@
-build/Debug/mingw-builds-x64-Windows/main.o: main.cpp
+build/Debug/MinGW-builds-x64-Windows/main.o: main.cpp
