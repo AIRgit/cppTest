@@ -14,8 +14,13 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-    printf("abcd");
-    printf("cdef");
+    int b = 0;
+    if (b > 1) {
+        printf("abcd");
+
+        printf("cdef");
+    }
+
     return 0;
 }
 
