@@ -7,21 +7,21 @@ CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
 # Debug configuration
-CND_PLATFORM_Debug=mingw-builds-x64-Windows
-CND_ARTIFACT_DIR_Debug=dist/Debug/mingw-builds-x64-Windows
-CND_ARTIFACT_NAME_Debug=cppgit
-CND_ARTIFACT_PATH_Debug=dist/Debug/mingw-builds-x64-Windows/cppgit
-CND_PACKAGE_DIR_Debug=dist/Debug/mingw-builds-x64-Windows/package
-CND_PACKAGE_NAME_Debug=cppgit.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/mingw-builds-x64-Windows/package/cppgit.tar
+CND_PLATFORM_Debug=GNU-Linux-x86
+CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux-x86
+CND_ARTIFACT_NAME_Debug=cpptest
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/cpptest
+CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Debug=cpptest.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/cpptest.tar
 # Release configuration
-CND_PLATFORM_Release=mingw-builds-x64-Windows
-CND_ARTIFACT_DIR_Release=dist/Release/mingw-builds-x64-Windows
-CND_ARTIFACT_NAME_Release=cppgit
-CND_ARTIFACT_PATH_Release=dist/Release/mingw-builds-x64-Windows/cppgit
-CND_PACKAGE_DIR_Release=dist/Release/mingw-builds-x64-Windows/package
-CND_PACKAGE_NAME_Release=cppgit.tar
-CND_PACKAGE_PATH_Release=dist/Release/mingw-builds-x64-Windows/package/cppgit.tar
+CND_PLATFORM_Release=GNU-Linux-x86
+CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
+CND_ARTIFACT_NAME_Release=cpptest
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/cpptest
+CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Release=cpptest.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/cpptest.tar
 #
 # include compiler specific variables
 #

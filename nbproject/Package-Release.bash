@@ -6,16 +6,15 @@
 
 # Macros
 TOP=`pwd`
-CND_PLATFORM=mingw-builds-x64-Windows
+CND_PLATFORM=GNU-Linux-x86
 CND_CONF=Release
 CND_DISTDIR=dist
 CND_BUILDDIR=build
-CND_DLIB_EXT=dll
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cppgit
-OUTPUT_BASENAME=cppgit
-PACKAGE_TOP_DIR=cppgit/
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cpptest
+OUTPUT_BASENAME=cpptest
+PACKAGE_TOP_DIR=cpptest/
 
 # Functions
 function checkReturnCode
@@ -60,15 +59,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/cppgit/bin"
-copyFileToTmpDir "${OUTPUT_PATH}.exe" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe" 0755
+makeDirectory "${NBTMPDIR}/cpptest/bin"
+copyFileToTmpDir "${OUTPUT_PATH}" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/cppgit.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/cpptest.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/cppgit.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/cpptest.tar *
 checkReturnCode
 
 # Cleanup
