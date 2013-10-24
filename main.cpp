@@ -20,7 +20,6 @@ int main(int argc, char** argv) {
 
         printf("cdef\n");
     }
-
     return 0;
 }
 
