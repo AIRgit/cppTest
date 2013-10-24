@@ -15,6 +15,7 @@ using namespace std;
  */
 int main(int argc, char** argv) {
     printf("abcd");
+    printf("cdef");
     return 0;
 }
 
